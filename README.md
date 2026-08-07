@@ -9,6 +9,7 @@ The project analyzes sales performance, customer behavior, product performance, 
 ## 📑 Table of Contents
 
 - Project Overview
+- Dashboard Preview
 - Business Objectives
 - Dataset
 - Data Preparation
@@ -47,6 +48,48 @@ The dashboard provides a comprehensive view of:
 - Data quality issues
 
 The solution is designed to support business stakeholders in identifying high-value customers, top-performing products, sales trends, cross-selling opportunities, and data quality issues that may affect analytical results.
+
+---
+
+## 📊 Dashboard Preview
+
+### 1. Executive Overview
+
+![Executive Overview](Assets/1_Executive_Overview.png)
+
+Provides a high-level view of overall revenue, transactions, customers, sales trends, top countries, and top-performing products.
+
+---
+
+### 2. Customer Analytics
+
+![Customer Analytics](Assets/2_Customer_Analytics.png)
+
+Analyzes customer behavior, customer value, repeat purchasing, and RFM-based customer segmentation.
+
+---
+
+### 3. Product Analytics
+
+![Product Analytics](Assets/3_Product_Analytics.png)
+
+Analyzes product revenue, units sold, product performance, product affinity, and the relationship between revenue and quantity.
+
+---
+
+### 4. Sales Performance
+
+![Sales Performance](Assets/4_Sales_Performance.png)
+
+Analyzes revenue and transaction performance over time and across countries.
+
+---
+
+### 5. Data Quality
+
+![Data Quality](Assets/5_Data_Quality.png)
+
+Provides a dedicated view of missing customer information, unknown-customer revenue, cancelled invoices, return transactions, zero-price records, and overall data quality issues.
 
 ---
 
