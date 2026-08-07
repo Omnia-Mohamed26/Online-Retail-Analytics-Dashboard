@@ -14,6 +14,7 @@ The dashboard provides an analytical view of sales performance, customer behavio
 - Data Preparation
 - Data Model
 - Dashboard Pages
+- Project Highlights
 - Dashboard KPIs
 - SQL Business Analysis
 - RFM Customer Segmentation
@@ -60,8 +61,9 @@ It also incorporates **RFM Customer Segmentation** and **Product Affinity Analys
 - Identify customer groups requiring retention attention.
 - Analyze products frequently purchased together.
 - Compare product revenue and sales quantity.
-- Identify missing and problematic transaction records.
-- Quantify revenue associated with unknown customers.
+- Identify missing customer information.
+- Measure revenue associated with unknown customers.
+- Identify cancelled invoices, return transactions, and zero-price records.
 - Support data-driven business decisions through interactive analytics.
 
 ---
