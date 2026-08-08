@@ -2,7 +2,7 @@
 
 An interactive **Retail Sales & Customer Analytics Dashboard** built using **Power BI, PostgreSQL, SQL, Power Query, and DAX** to transform transactional retail data into meaningful business insights.
 
-The dashboard provides an analytical view of sales performance, customer behavior, product performance, RFM customer segmentation, product affinity, and data quality through five interactive Power BI report pages.
+The dashboard provides an analytical view of sales performance, customer behavior, product performance, RFM customer segmentation, product affinity, and data quality across five Power BI report pages.
 
 ---
 
@@ -83,7 +83,7 @@ The dataset contains transaction-level retail information, including:
 - Customer ID
 - Country
 
-The original dataset contains **541,909 transaction records**.
+The original dataset contains **541,909 transaction records** before data quality filtering and analytical transformations.
 
 The dataset includes both complete and incomplete records, allowing the project to combine business analysis with dedicated data quality analysis.
 
@@ -91,7 +91,7 @@ The dataset includes both complete and incomplete records, allowing the project 
 
 ## 🧹 Data Preparation
 
-Data preparation and transformation were performed using **PostgreSQL** and **Power Query**.
+Data preparation and transformation were performed using **PostgreSQL, SQL, and Power Query**.
 
 Key preparation activities included:
 
@@ -286,14 +286,13 @@ The dashboard uses dynamic KPI cards to monitor key business metrics.
 | KPI | Description |
 |---|---|
 | Total Revenue | Total revenue generated from retail transactions |
-| Total Orders | Number of unique orders/invoices |
+| Total Orders | Number of distinct invoices/orders |
 | Total Customers | Number of unique customers |
 | Units Sold | Total quantity of products sold |
 | Average Order Value | Average revenue generated per order |
 | Repeat Customers | Customers with multiple purchasing transactions |
 | One-Time Customers | Customers with a single purchasing transaction |
 | Total Products | Number of distinct products |
-| Total Transactions | Number of transactions analyzed |
 ---
 
 ## 🗃️ SQL Business Analysis
@@ -458,7 +457,6 @@ Custom **DAX measures** were developed to support dynamic calculations and inter
 The measures dynamically respond to report filters, slicers, and cross-filtering interactions.
 
 ---
----
 
 ## ❓ Business Questions Answered
 
@@ -475,7 +473,6 @@ The dashboard and SQL analysis answer a wide range of business questions across 
 - Which countries generate the highest revenue?
 - Which countries generate the highest number of units sold?
 - Which products generate the highest revenue?
-- How does revenue performance vary over time?
 
 ### Customer Analytics
 
@@ -664,11 +661,14 @@ Online-Retail-Analytics-Dashboard
 │
 └── SQL
     └── Online_Retail_SQL_Analysis.sql
-    ## 🚀 How to Explore the Dashboard
+```
+---
+
+## 🚀 How to Explore the Dashboard
 
 1. Clone or download the repository.
 2. Open the dashboard PDF located in the `Dashboard` folder.
-3. Explore the five Power BI dashboard pages.
+3. Explore the five dashboard pages included in the PDF.
 4. Review the dashboard screenshots available in the `Assets` folder.
 5. Explore the PostgreSQL SQL analysis in the `SQL` folder.
 6. Review the SQL queries used for RFM Customer Segmentation, Product Affinity Analysis, Sales Performance, Customer Analysis, Product Analysis, and Data Quality Analysis.
@@ -683,17 +683,17 @@ Online-Retail-Analytics-Dashboard
 Potential enhancements for future versions include:
 
 - Customer Lifetime Value (CLV) Analysis
+- Customer Cohort Analysis
 - Customer Churn Analysis
 - Revenue Forecasting
-- Advanced Customer Segmentation
 - Product Recommendation Analysis
-- Geographic Sales Visualization
 - Profitability Analysis
-- Customer Cohort Analysis
+- Geographic Sales Visualization
 - Power BI Service Deployment
 - Automated Data Refresh
 - Row-Level Security (RLS)
 - Mobile Dashboard Optimization
+- Advanced Customer Segmentation
 
 These improvements could extend the project from descriptive and diagnostic analytics toward predictive and prescriptive analytics.
 
